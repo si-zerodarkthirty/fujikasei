@@ -43,15 +43,17 @@ class Footer extends HTMLElement {
         }
       </style>
       <footer>
-        <div class="logo">富士化成工業所</div>
+        <a href="/">
+          <div class="logo">富士化成工業所</div>
+        </a>
         <nav class="links">
-          <a href="/pages/products.html">
+          <a href="/#products">
             <li>製品紹介</li>
           </a>
-          <a href="/pages/info.html">
+          <a href="/info.html">
             <li>会社情報</li>
           </a>
-          <a href="/pages/recruit.html">
+          <a href="/recruit.html">
             <li>採用情報</li>
           </a>
         </nav>

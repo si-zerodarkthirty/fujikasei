@@ -8,17 +8,17 @@ class Header extends HTMLElement {
     });
     this.shadowRoot.innerHTML = `
     <header>
-      <a href="../index.html">
+      <a href="/">
         <h1>富士化成工業所</h1>
       </a>
       <nav>
-        <a href="/pages/products.html">
+        <a href="/#products">
           <li>製品紹介</li>
         </a>
-        <a href="/pages/info.html">
+        <a href="/info.html">
           <li>会社情報</li>
         </a>
-        <a href="/pages/recruit.html">
+        <a href="/recruit.html">
           <li>採用情報</li>
         </a>
       </nav>
