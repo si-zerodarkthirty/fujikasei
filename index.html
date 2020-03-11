@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>富士化成工業所</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/top.css">
+  </head>
+  <body>
+    <div id="top">
+      <header>
+        <a href="../index.html">
+          <h1>富士化成工業所</h1>
+        </a>
+        <nav>
+          <a href="./pages/products.html">
+            <li>製品紹介</li>
+          </a>
+          <a href="./pages/info.html">
+            <li>会社情報</li>
+          </a>
+          <a href="./pages/recruit.html">
+            <li>採用情報</li>
+          </a>
+        </nav>
+      </header>
+      <div class="content">
+        <section class="first-view">
+          <h2>あたらしい<br/>未来を想像する<br/>富士化成</h2>
+        </section>
+        <section class="products">
+          <h2>製品紹介 <span>products</span></h2>
+          <div class="items">
+            <li v-for="(product,idx) in products" :key="idx">
+              <h3>{{ product.name }}</h3>
+              <p class="eng_name">{{ product.eng_name }}</p>
+              <div class="image" :style="'background-image: url('+ product.image + ');'"></div>
+              <p class="discription">{{ product.discription }}</p>
+            </li>
+          </div>
+          <a href="./pages/products.html">
+            <div class="button">もっとみる</div>
+          </a>
+        </section>
+        <section class="info">
+          <h2>会社情報 <span>our company</span></h2>
+          <div>
+            
+          </div>
+        </section>
+        <section class="info">
+          <h2>採用情報 <span>Recruit</span></h2>
+          <div>
+            
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
