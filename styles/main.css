@@ -46,6 +46,7 @@ header nav li {
 .content .subtitle {
   margin: 0 0 2rem;
   text-align: center;
+  color: #000854;
 }
 .items {
   list-style: none;
