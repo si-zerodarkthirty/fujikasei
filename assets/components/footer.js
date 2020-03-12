@@ -7,6 +7,23 @@ class Footer extends HTMLElement {
           mode: 'open'
       });
       this.shadowRoot.innerHTML = `
+      <footer>
+        <a href="/">
+          <div class="logo">富士化成工業所</div>
+        </a>
+        <nav class="links">
+          <a href="/#products">
+            <li>製品紹介</li>
+          </a>
+          <a href="/our_company.html">
+            <li>会社情報</li>
+          </a>
+          <a href="/recruit.html">
+            <li>採用情報</li>
+          </a>
+        </nav>
+        <p class="copy_right">&copy 2020 富士化成工業所.</p>
+      </footer>
       <style>
         :visited,
         :link {
@@ -42,23 +59,6 @@ class Footer extends HTMLElement {
           font-size: 0.8rem;
         }
       </style>
-      <footer>
-        <a href="/">
-          <div class="logo">富士化成工業所</div>
-        </a>
-        <nav class="links">
-          <a href="/#products">
-            <li>製品紹介</li>
-          </a>
-          <a href="/info.html">
-            <li>会社情報</li>
-          </a>
-          <a href="/recruit.html">
-            <li>採用情報</li>
-          </a>
-        </nav>
-        <p class="copy_right">&copy 2020 富士化成工業所.</p>
-      </footer>
       `;
   }
 

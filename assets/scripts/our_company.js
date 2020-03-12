@@ -1,5 +1,5 @@
 new Vue({
-  el: "#info",
+  el: "#our_company",
   data() {
     return {
       

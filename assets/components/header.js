@@ -15,7 +15,7 @@ class Header extends HTMLElement {
         <a href="/#products">
           <li>製品紹介</li>
         </a>
-        <a href="/info.html">
+        <a href="/our_company.html">
           <li>会社情報</li>
         </a>
         <a href="/recruit.html">
