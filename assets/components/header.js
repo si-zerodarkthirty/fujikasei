@@ -15,10 +15,10 @@ class Header extends HTMLElement {
         <a href="/#products">
           <li>製品紹介</li>
         </a>
-        <a href="/our_company.html">
+        <a href="/our_company">
           <li>会社情報</li>
         </a>
-        <a href="/recruit.html">
+        <a href="/recruit">
           <li>採用情報</li>
         </a>
       </nav>
